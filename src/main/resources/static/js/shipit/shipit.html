@@ -1,0 +1,11 @@
+<h2>ShipIt Apps</h2>
+<table class="table table-striped table-hover table-bordered">
+    <tr>
+        <th>App ID</th>
+        <th>App Name</th>
+    </tr>
+    <tr ng-repeat="shipitapp in vm.shipitapps">
+        <td>{{shipitapp.id}}</td>
+        <td>{{shipitapp.name}}</td>
+    </tr>
+</table>

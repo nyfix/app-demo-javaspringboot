@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: app-shipit-template
+
+server:
+  port: 9292
+
+security:
+  oauth2:
+    client:
+      tokenName: access_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+      scope: email
+      clientId: 534a9229-7513-36ed-80c6-22b5fb5ccd22
+      clientSecret: d936753a-ba91-462c-87f8-26abd0875e7e
+      accessTokenUri: https://login-sandbox.nyfix.com/sentrygw/api/token/access_token
+      userAuthorizationUri: https://login-sandbox.nyfix.com/sentrygw/api/oauth2/authorize
+    resource:
+      userInfoUri: https://login-sandbox.nyfix.com/sentrygw/api/token/resource
+
+logging:
+  level:
+    ROOT: INFO
+    com.ullink.nyfix.shipIt: DEBUG

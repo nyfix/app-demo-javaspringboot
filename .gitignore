@@ -1,0 +1,15 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse IDE
+.project
+.settings/
+.classpath
+
+# Maven
+target/
+pom.xml.*
+
+# Generated files
+*.log
