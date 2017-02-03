@@ -1,4 +1,4 @@
-# NYFIX ShipIt Template Application
+# NYFIX DEMO SPRINGBOOT
 
 ## Intro
 
