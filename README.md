@@ -39,10 +39,3 @@ Prerequisite: You need to have maven installed
 
 ## Run the app
 - Go to the target folder of  app-shipit-template and run 'java -jar app-shipit-template-1.0.0-SNAPSHOT.jar', since spring boot comes with inbuilt tomcat, the app will be deployed and fired up in tomcat
-
-## Lauch the app from Portal 
-- Login into [NYFIX portal sandbox](https://portal-sandbox.nyfix.com/x/) and click on your app
-
-## Questions/Issues
-
-- If you have any questions or if you come accross any errors etc, please send an email to TBD-nyfixportal@ullink.com 
