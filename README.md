@@ -10,28 +10,6 @@ It includes:
 
 - frontend:
   Simple Javascript app written using AngularJS 1.X, authentication layer provided via oauth-sentry webjar(hosted on ul-central), some css.
- 
-`little about sentry`
-Sentry is a multi-tenant OAuth2 Authorization server with OpenID Connect capabilities provided by one of the Ullink vendors.
-
-
-## NYFIX Portal Registration
-
-`If you do not have a login for devcenter, please send an email to TBD-nyfixportal@ullink.com`
-- Login into [NYFIX dev center](https://devcenter-sandbox.nyfix.com/x)
-- Go to `MY APPS` and click on `Create New Application`
-- Provide the required details
- ![Screen_Shot_2016-11-21_at_4.45.01_PM](/uploads/3554e8a38cdaf553c5f11ea7fa5cd333/Screen_Shot_2016-11-21_at_4.45.01_PM.png)
-
-- Upload the logo image for your app(Logo should be at least 200x200 px and square, sample logo below)
-
-![NYFIX_API_Portal_512](/uploads/fb478f406c4427ba75cf510ae0007ce2/NYFIX_API_Portal_512.png)
-
-- Provide the Sandbox Launch URI(`Note:` If you want to run this app locally, since 9292 has already been regisred with sentry of sandbox-dev, change the port in Application.yml and provide http://127.0.0.1:`port`/login as Sandbox Launch URI)
-![Screen_Shot_2016-11-21_at_5.02.11_PM](/uploads/624c6d7f65c1e5165dde6c8ea0dd846b/Screen_Shot_2016-11-21_at_5.02.11_PM.png)
-- Save the app, if the app was successfully registered, a popup will be shown with client ID and secret (write them down, you can't get them again)
- ![Screen_Shot_2016-11-21_at_5.00.05_PM](/uploads/acf8c13a599de3a9a49d9a2a0dafb89e/Screen_Shot_2016-11-21_at_5.00.05_PM.png)
-
 
 ## Application.yml configuration explained
 
